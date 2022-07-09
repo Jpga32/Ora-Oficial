@@ -97,13 +97,13 @@ p {
     width: 50%;
 }
 
-img {
+picture img {
     padding: 10px;
     width: 30%;
     height: auto;
     position: relative;
-    bottom: 785px;
-    right: 565px;
+    bottom: 720px;
+    right: 540px;
 }
 
 #formata {
@@ -175,6 +175,9 @@ a.btn {
     margin-bottom: 1rem;
     color: #ffffff;
     text-align: center;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
 
 
 }
@@ -210,7 +213,9 @@ form {
     border-bottom: 1px solid white;
     width: 300px;
     margin-bottom: 10px;
-    margin-right: -230px;
+    position: relative;
+    left: 130px;
+    top: 10px;
     outline: none;
     background-color: #111111;
 }
@@ -220,6 +225,9 @@ form {
     font-weight: bolder;
     display: block;
     font-size: 17px;
+    position: relative;
+    left: 130px;
+    top: 10px;
     text-align: left;
     font-family: 'gotham';
 
@@ -257,7 +265,9 @@ a.modal__link {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    margin-left: 340px;
+    margin-left: 325px;
+    padding: 10px 15px;
+   
 
 }
 
@@ -275,7 +285,10 @@ div button {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    margin-left: 185px;
+    margin-left: 120px;
+    position: relative;
+    left: 45px;
+    top: 35px;
     width: 50%;
     margin-top: 1vh;
 
@@ -286,7 +299,7 @@ div button {
     width: 14px;
     position: relative;
     bottom: 500px;
-    right: 985px;
+    right: 907px;
     padding: 1px;
 
 }
@@ -295,7 +308,7 @@ div button {
     width: 2%;
     position: relative;
     bottom: 500px;
-    right: 900px;
+    right: 820px;
     padding: 1px;
 }
 
@@ -303,7 +316,7 @@ div button {
     width: 2%;
     position: relative;
     bottom: 500px;
-    right: 1070px;
+    right: 995px;
     padding: 1px;
 }
 
@@ -332,12 +345,15 @@ iframe {
     background: rgb(26, 76, 102);
     background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
     position: relative;
-    bottom: 2350px;
+    bottom: 2300px;
     left: 360px;
     width: 20%;
     padding: 10px;
     font-family: 'lemon';
 
+}
+div a.comprar{
+    background-color: #ffffff;
 }
 
 /* Fim da área de video */
@@ -367,11 +383,12 @@ iframe {
 
 .spot {
 
-    width: 5%;
+    width: 10%;
     height: 75%;
     position: relative;
-    left: 350px;
-    bottom: 2200px;
+    left: 50px;
+    top: 12px;
+  
 }
 
 .container {
@@ -384,6 +401,14 @@ iframe {
     background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
     border-radius: 170px;
     height: 85%;
+
+}
+a h6{
+    position: relative;
+    left: 115px;
+    top: 5px;
+    font-size: 14px;
+    font-family: 'gotham';
 
 }
 
