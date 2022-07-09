@@ -352,7 +352,15 @@ iframe {
     font-family: 'lemon';
 
 }
-div a.comprar{
+.compre{
+    width: 12%;
+    font-family: 'lemon';
+    position: absolute;
+    top: 1590px;
+    left: 560px;
+
+}
+ a.comprar{
     background-color: #ffffff;
 }
 
