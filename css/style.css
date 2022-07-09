@@ -154,6 +154,9 @@ a {
 }
 
 .modal__content {
+    position: relative;
+    top: 1800px;
+    left: 250px;
     box-shadow: #5b5b5b 2px 2px 15px;
     background-color: #111111;
     width: 400px;
