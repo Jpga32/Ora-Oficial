@@ -469,22 +469,29 @@ h2 {
 {
     color: #fff;
     font-family: 'lemon';
-    position: relative;
-    bottom: 700px;
-    left: 145px;
+    position: absolute;
+    top: 2350px;
+    left: 160px;
     
 }
-.curso_vendas {
-    width: 10%;
-    background-color: #fff;
-    
+.curso_botao {
+    width: 15%;
+    color: #fff;
+    position: absolute;
+    top: 2780px;
+    left: 140px;
+    padding: 5px;
+    background: rgb(26, 76, 102);
+    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
+    font-family: 'lemon';
+    font-size: 15px;    
 }
 .curso_texto{
     width:30%;
     display: flex;
     align-items: center;
-    position: relative;
-    bottom: 750px;
+    position: absolute;
+    top: 2350px;
     left: 450px;
 }
 
