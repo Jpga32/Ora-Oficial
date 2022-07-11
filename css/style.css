@@ -237,7 +237,10 @@ a.modal__link {
     margin-left: -15px;
 }
 
-.btn /* Botao para abrir modal */{
+.btn
+
+/* Botao para abrir modal */
+    {
     font-size: 1.2em;
     font-weight: bolder;
     background: rgb(26, 76, 102);
@@ -255,10 +258,9 @@ a.fmt {
 
     color: #fff;
     font-size: 18px;
-    margin-left: 325px;
-    padding: 10px 15px;
-
-
+    position: relative;
+    left: 260px;
+    bottom: 15px;
 }
 
 p#my-form-status {
@@ -266,11 +268,12 @@ p#my-form-status {
     margin-top: -7vh;
 
 }
-a button{
-padding: 20px;
-display: flex;
-align-items: center;
-justify-content: space-around;
+
+a button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -288,6 +291,18 @@ div button {
     bottom: 20px;
     width: 50%;
     margin-top: 1vh;
+
+}
+
+a.btn {
+    width: 20%;
+    position: relative;
+    top: 1800px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'gotham';
 
 }
 
@@ -449,49 +464,11 @@ h2 {
 /*  Fim da área do podcast */
 
 /* Área de compra */
-
-.cursos {
-    position: absolute;
-    top: 2400px;
-    left: 450px;
+.curso__vendas {
+    width: 10px;
 }
-
-.cursos__vendas {
-    width: 18%;
-    height: 6vh;
-    position: absolute;
-    top: 410px;
-    margin-left: -310px;
-
-}
-
-.cursos__title {
-    position: relative;
-    left: -250px;
-    top: 20px;
-    font-size: 22px;
-    color: #fff;
-    font-family: 'lemon';
-}
-
-
-
 
 
 /* Fim da área de compra */
 
-/* Formulario */
-a.btn {
-    width: 20%;
-    position: relative;
-    top: 1800px;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bolder;
-    font-family: 'gotham';
-
-}
-
-/* Fim do formulario */
 @media screen and (min-width: 300px) {}
