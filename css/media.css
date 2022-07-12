@@ -7,8 +7,8 @@ main{
 }
 .wrapper { 
   display: flex;
-  margin-left: -460px;
-  margin-top:  -580px;
+  margin-left: -410px;
+  margin-top:  -940px;
  }
 
 .cell {

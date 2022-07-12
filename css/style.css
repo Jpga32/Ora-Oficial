@@ -93,8 +93,15 @@ p {
     color: #fff;
     text-align: left;
     margin-top: 80px;
-    margin-left: -395px;
+    margin-left: -350px;
     width: 50%;
+}
+.descomplicar{
+    position: relative;
+    bottom: 50px;
+}
+span{
+    color: darkcyan;
 }
 
 picture img {
@@ -102,19 +109,16 @@ picture img {
     width: 30%;
     height: auto;
     position: relative;
-    bottom: 720px;
-    right: 540px;
+    bottom: 400px;
+    right: 760px;
 }
 
 #formata {
     position: relative;
-    width: 50%;
-    bottom: 275px;
+    width: 90%;
+    bottom: 595px;
     left: 10px;
     border-radius: 15px;
-    border: solid 3px;
-    background-color: cadetblue;
-    padding: 0%;
 }
 
 a {
