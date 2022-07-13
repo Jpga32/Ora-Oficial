@@ -313,27 +313,27 @@ a.btn {
 
 /* Formatação das imagens social */
 .social {
-    width: 14px;
+    width: 3%;
     position: relative;
     bottom: 500px;
-    right: 907px;
+    right: 840px;
     padding: 1px;
 
 }
 
 .social-2 {
-    width: 2%;
+    width: 3%;
     position: relative;
     bottom: 500px;
-    right: 820px;
+    right: 755px;
     padding: 1px;
 }
 
 .social-3 {
-    width: 2%;
+    width: 33px;
     position: relative;
     bottom: 500px;
-    right: 995px;
+    right: 925px;
     padding: 1px;
 }
 
@@ -343,27 +343,27 @@ a.btn {
 
 h3 {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'lemon';
     position: relative;
-    bottom: 1040px;
+    bottom: 920px;
     text-align: center;
 }
 
 iframe {
     position: relative;
-    bottom: 1050px;
-    width: 80%;
+    bottom: 1000px;
+    width: 60%;
     height: 80vh;
-    left: 130px;
+    left: 250px;
     background-color: #fff;
 }
 
 .comprar {
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
+    background: rgb(186,175,188);
+    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(26,121,168,1) 50%, rgba(26,76,102,1) 100%);
     position: relative;
-    bottom: 2300px;
+    bottom: 2200px;
     left: 360px;
     width: 20%;
     padding: 10px;
@@ -372,11 +372,12 @@ iframe {
 }
 
 .compre {
-    width: 15%;
+    width: 25%;
+    font-size: 20px;
     font-family: 'lemon';
     position: absolute;
     top: 1450px;
-    left: 530px;
+    left: 450px;
 
 }
 
@@ -393,29 +394,18 @@ a.comprar {
     display: inline-block;
     position: relative;
 
-    left: 230px;
+    left: 180px;
     bottom: 790px;
     color: #ffffff;
+    padding: 0 50px;
 }
-
-.podcast- {
-    list-style: none;
-    display: inline-block;
-
-    position: relative;
-
-    bottom: 2250px;
-    left: 280px;
-    color: #ffffff;
-}
-
 .spot {
-
-    width: 10%;
+    display: flex;
+    width: 17%;
     height: 75%;
     position: relative;
-    left: 50px;
-    top: 12px;
+    left: 20px;
+    top: 42px;
 
 }
 
@@ -423,46 +413,58 @@ a.comprar {
     color: #fff;
     position: relative;
     bottom: 760px;
+    left: 200px;
     display: flex;
     padding: 100px;
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    border-radius: 170px;
-    height: 85%;
+    background: rgb(186,175,188);
+    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(26,121,168,1) 50%, rgba(26,76,102,1) 100%);
+    border-radius: 90px;
+    height: 75%;
+    width: 70%;
 
 }
 
 a h6 {
     position: relative;
-    left: 115px;
+    left: 82px;
     top: 5px;
     font-size: 14px;
     font-family: 'gotham';
 
 }
 
-ul li {
+.descricao {
+    width: 60%;
     position: relative;
-    left: 60px;
-    font-size: 16px;
-    padding: 10px;
+    left: 400px;
+    bottom: 130px;
     font-family: 'gotham';
+
+}.descricao-2{
+    position: relative;
+    left: 285px;
+    top: 20px;
+    width: 60%;
+
 }
 
-.descricao {
-    font-size: 16px;
-    width: 100%;
-    position: relative;
-    right: 50px;
-    font-family: 'gotham';
+.title{
+border-right: solid 3px black ;
+height: 130px;
+position: relative;
+padding: 10px;
+padding-top: 1px;
+
 }
 
 h2 {
+   
     position: relative;
-    left: 100px;
-    bottom: 70px;
+    left: 10px;
+    bottom: 50px;
     font-family: 'lemon';
-    font-size: 20px;
+    font-size: 18px;
+    
 }
 
 /*  Fim da área do podcast */
@@ -471,35 +473,58 @@ h2 {
 
 .curso_title
 {
+    text-align: center;
     color: #fff;
     font-family: 'lemon';
     position: absolute;
-    top: 2350px;
-    left: 160px;
+    top: 2050px;
+    left: 100px;
     
 }
 .curso_botao {
-    width: 15%;
+    width: 22%;
     color: #fff;
     position: absolute;
-    top: 2780px;
-    left: 140px;
+    top: 2380px;
+    left: 135px;
     padding: 5px;
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
+     background: rgb(26, 76, 102); 
+     background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1)); 
     font-family: 'lemon';
-    font-size: 15px;    
+    font-size: 20px;    
 }
+
 .curso_texto{
-    width:30%;
+    width: 30%;
     display: flex;
     align-items: center;
     position: absolute;
-    top: 2350px;
+    top: 2050px;
     left: 450px;
+    font-family: 'gotham';
 }
-
-
+figure img {
+    position: relative;
+    bottom: 710px;
+    left: 1000px;
+}
 /* Fim da área de compra */
 
+/* Rodapé */
+.rodape{
+position: relative;
+left: 50px;
+color: #fff;
+}
+.rodape ul li {
+    list-style: none;
+}
+.img_rodape{
+    width: 20%;
+    position: static;
+    top: 2800px;
+    right: 80px;
+}
+
+/* Fim do rodapé  */
 @media screen and (min-width: 300px) {}
