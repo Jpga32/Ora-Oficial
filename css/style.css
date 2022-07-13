@@ -507,23 +507,27 @@ figure img {
     position: relative;
     bottom: 710px;
     left: 1000px;
+    padding: auto;
 }
 /* Fim da área de compra */
 
 /* Rodapé */
 .rodape{
 position: relative;
-left: 50px;
+right: 20px;
 color: #fff;
+
+
 }
 .rodape ul li {
     list-style: none;
+
 }
 .img_rodape{
     width: 20%;
-    position: static;
-    top: 2800px;
-    right: 80px;
+    position: relative;
+    right: 50px;
+
 }
 
 /* Fim do rodapé  */
