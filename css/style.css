@@ -135,17 +135,16 @@ form {
 }
 
 .campo input {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     width: 100%;
     color: white;
     font-size: 15px;
-    border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     width: 300px;
     margin-bottom: 10px;
     position: relative;
-    left: 130px;
-    bottom: 45px;
+    left: 1130px;
+    bottom: 570px;
     padding: 10px 10px;
     outline: none;
     background-color: #111111;
@@ -157,8 +156,8 @@ form {
     display: block;
     font-size: 17px;
     position: relative;
-    left: 135px;
-    bottom: 50px;
+    left: 1135px;
+    bottom: 570px;
     text-align: left;
     font-family: 'gotham';
 
@@ -414,3 +413,17 @@ figure img {
     width: 30%;
 }
 /* Fim da área de compra */
+
+/* form */
+
+.Ebook{
+    color: #fff;
+}
+.vitor{
+    position: relative;
+    bottom: 100px;
+    right: 25px;
+}
+
+
+/* Fim do form */
