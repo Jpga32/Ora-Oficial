@@ -89,34 +89,32 @@ article,
 
 p {
     font-family: 'gotham';
-    font-size: 18px;
+    font-size: 21px;
     color: #fff;
     text-align: left;
-    margin-top: 80px;
-    margin-left: -350px;
+    position: absolute;
+    top: 165px;
+    left: 70px;
     width: 50%;
 }
-.descomplicar{
-    position: relative;
-    bottom: 50px;
-}
+
 span{
     color: darkcyan;
 }
 
 picture img {
     padding: 10px;
-    width: 30%;
+    width: 28%;
     height: auto;
     position: relative;
-    bottom: 400px;
-    right: 760px;
+    bottom: 155px;
+    right: 836px;
 }
 
 #formata {
     position: relative;
-    width: 90%;
-    bottom: 595px;
+    width: 85%;
+    bottom: 400px;
     left: 10px;
     border-radius: 15px;
 }
@@ -315,8 +313,8 @@ a.btn {
 .social {
     width: 3%;
     position: relative;
-    bottom: 500px;
-    right: 840px;
+    bottom: 550px;
+    right: 920px;
     padding: 1px;
 
 }
@@ -324,16 +322,16 @@ a.btn {
 .social-2 {
     width: 3%;
     position: relative;
-    bottom: 500px;
-    right: 755px;
+    bottom: 550px;
+    right: 835px;
     padding: 1px;
 }
 
 .social-3 {
-    width: 33px;
+    width: 36px;
     position: relative;
-    bottom: 500px;
-    right: 925px;
+    bottom: 550px;
+    right: 1005px;
     padding: 1px;
 }
 
@@ -343,19 +341,19 @@ a.btn {
 
 h3 {
     color: #fff;
-    font-size: 30px;
+    font-size: 33px;
     font-family: 'lemon';
     position: relative;
-    bottom: 920px;
+    bottom: 980px;
     text-align: center;
 }
 
 iframe {
     position: relative;
-    bottom: 1000px;
+    bottom: 1058px;
     width: 60%;
     height: 80vh;
-    left: 250px;
+    left: 300px;
     background-color: #fff;
 }
 
@@ -373,11 +371,11 @@ iframe {
 
 .compre {
     width: 25%;
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'lemon';
     position: absolute;
-    top: 1450px;
-    left: 450px;
+    top: 1650px;
+    left: 510px;
 
 }
 
@@ -433,17 +431,10 @@ a h6 {
 
 }
 
-.descricao {
-    width: 60%;
+.descricao-2{
     position: relative;
-    left: 400px;
-    bottom: 130px;
-    font-family: 'gotham';
-
-}.descricao-2{
-    position: relative;
-    left: 285px;
-    top: 20px;
+    right: 355px;
+    top: -70px;
     width: 60%;
 
 }
@@ -454,6 +445,7 @@ height: 130px;
 position: relative;
 padding: 10px;
 padding-top: 1px;
+
 
 }
 
@@ -477,7 +469,7 @@ h2 {
     color: #fff;
     font-family: 'lemon';
     position: absolute;
-    top: 2050px;
+    top: 2450px;
     left: 100px;
     
 }
@@ -485,13 +477,13 @@ h2 {
     width: 22%;
     color: #fff;
     position: absolute;
-    top: 2380px;
+    top: 2850px;
     left: 135px;
     padding: 5px;
      background: rgb(26, 76, 102); 
      background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1)); 
     font-family: 'lemon';
-    font-size: 20px;    
+    font-size: 22px;    
 }
 
 .curso_texto{
@@ -499,32 +491,13 @@ h2 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 2050px;
-    left: 450px;
+    top: 2550px;
+    left: 100px;
     font-family: 'gotham';
 }
 figure img {
     position: relative;
-    bottom: 710px;
-    left: 1000px;
+    bottom: 570px;
+    left: 1150px;
 }
 /* Fim da área de compra */
-
-/* Rodapé */
-.rodape{
-position: relative;
-left: 50px;
-color: #fff;
-}
-.rodape ul li {
-    list-style: none;
-}
-.img_rodape{
-    width: 20%;
-    position: static;
-    top: 2800px;
-    right: 80px;
-}
-
-/* Fim do rodapé  */
-@media screen and (min-width: 300px) {}
