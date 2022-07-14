@@ -126,67 +126,6 @@ a {
     margin-left: 80px;
 }
 
-.modal {
-    position: relative;
-    bottom: 450px;
-    left: 10px;
-    width: 100%;
-    height: 80vh;
-
-    border-radius: 100px;
-    display: grid;
-    place-content: center;
-    visibility: hidden;
-    opacity: 0;
-    transition: .3s;
-}
-
-.modal__description {
-    color: #ffffff;
-    padding: 35px;
-}
-
-.modal:target {
-    opacity: 1;
-    visibility: visible;
-}
-
-.modal__content {
-    position: relative;
-    top: 1800px;
-    left: 250px;
-    box-shadow: #5b5b5b 2px 2px 15px;
-    background-color: #111111;
-    width: 400px;
-    padding: 2rem 2rem 1rem;
-    border-radius: 4px;
-}
-
-.modal__title {
-    margin-bottom: 1rem;
-    color: #ffffff;
-    text-align: center;
-    position: relative;
-    left: 10px;
-    bottom: 40px;
-
-
-}
-
-.modal__link {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    color: #ffffff;
-    padding: 0.7rem 3rem;
-    margin-top: 1rem;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-left: 80px;
-}
-
 /* Formulario */
 form {
     display: flex;
@@ -235,35 +174,7 @@ button {
     margin-top: 10px;
 }
 
-a.modal__link {
-    margin-left: -15px;
-}
 
-.btn
-
-/* Botao para abrir modal */
-    {
-    font-size: 1.2em;
-    font-weight: bolder;
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    border-radius: 2px;
-    margin-top: 18px;
-    color: #fff;
-    width: 50%;
-    padding: 0.2rem 0.6rem;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-a.fmt {
-
-    color: #fff;
-    font-size: 18px;
-    position: relative;
-    left: 260px;
-    bottom: 15px;
-}
 
 p#my-form-status {
     margin-left: 500px;
@@ -344,13 +255,13 @@ h3 {
     font-size: 33px;
     font-family: 'lemon';
     position: relative;
-    bottom: 980px;
+    bottom: 380px;
     text-align: center;
 }
 
 iframe {
     position: relative;
-    bottom: 1058px;
+    bottom: 458px;
     width: 60%;
     height: 80vh;
     left: 300px;
@@ -370,12 +281,13 @@ iframe {
 }
 
 .compre {
-    width: 25%;
+    width: 20%;
+    height: 50px;
     font-size: 26px;
     font-family: 'lemon';
     position: absolute;
-    top: 1650px;
-    left: 510px;
+    top: 1580px;
+    left: 560px;
 
 }
 
@@ -392,8 +304,8 @@ a.comprar {
     display: inline-block;
     position: relative;
 
-    left: 180px;
-    bottom: 790px;
+    left: 260px;
+    bottom: 200px;
     color: #ffffff;
     padding: 0 50px;
 }
@@ -402,16 +314,16 @@ a.comprar {
     width: 17%;
     height: 75%;
     position: relative;
-    left: 20px;
-    top: 42px;
+    left: 15px;
+    top: 40px;
 
 }
 
 .container {
     color: #fff;
     position: relative;
-    bottom: 760px;
-    left: 200px;
+    bottom: 180px;
+    left: 220px;
     display: flex;
     padding: 100px;
     background: rgb(186,175,188);
@@ -469,7 +381,7 @@ h2 {
     color: #fff;
     font-family: 'lemon';
     position: absolute;
-    top: 2450px;
+    top: 2300px;
     left: 100px;
     
 }
@@ -477,7 +389,7 @@ h2 {
     width: 22%;
     color: #fff;
     position: absolute;
-    top: 2850px;
+    top: 2700px;
     left: 135px;
     padding: 5px;
      background: rgb(26, 76, 102); 
@@ -491,13 +403,14 @@ h2 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 2550px;
+    top: 2380px;
     left: 100px;
     font-family: 'gotham';
 }
 figure img {
     position: relative;
-    bottom: 570px;
-    left: 1150px;
+    bottom: 150px;
+    left: 980px;
+    width: 30%;
 }
 /* Fim da área de compra */
