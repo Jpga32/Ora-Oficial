@@ -15,12 +15,11 @@
   <main>
     <article>
 
-      <p>E se você conhecesse uma empresa que te <span> ensinasse </span> de <br> maneira <span>prática</span> e
-        <span>fácil,</span> que <span>contabilizar</span> não é um bicho <br> de sete cabeças?
-
-        <br> <br>
-        Pode parece díficil, mas juntos podemos <span> descomplicar! </span>
+      <p>E se você conhecesse uma empresa que te <span> ensinasse </span> de maneira <span>prática</span> e
+        <span>fácil,</span> que <span>contabilizar</span> não é um bicho de sete cabeças?
       </p>
+
+      <p class="descomplicar">Pode parece díficil, mas juntos podemos <span> descomplicar! </span></p>
 
       <picture><img src="img/logo.png" alt=""></picture>
       <img id="formata" src="img/Content.png" alt="">
@@ -45,6 +44,37 @@
       <!-- Fim da chamada dos icones -->
     </article>
   </main>
+  <!-- Formulario modal -->
+  <!--   <a href="#modal_1" class="btn">Venha baixar nosso Ebook</a> -->
+  <div id="modal_1" class="modal">
+    <div class="modal__content">
+      <a class="fmt" href="index.html">X</a>
+      <h2 class="modal__title">Preencha Abaixo <br> para Baixar o Ebook </h2>
+      <form id="my-form" action="https://formspree.io/f/xlezygqr" method="POST" class="modal__description">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" name="no" id="nome" placeholder="Ex: Igor de Andrade Silva " required>
+        </div>
+        <div class="campo">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Ex: IgorAndrade@gmail.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefone">Telefone:</label>
+          <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="Ex: (11) 99999-9999" required>
+        </div>
+
+        <div>
+          <button onclick="Ebook()" type="submit" id="enviar" name="enviar">Baixe Já </button>
+        </div>
+        <p id="my-form-status"></p>
+
+      </form>
+
+    </div>
+  </div>
+  <!-- Fim do formulario modal -->
 
   <!-- Inicio da área de video -->
 
@@ -94,10 +124,11 @@
     <h2 class="title"> ORAcast- mudando <br> sua visão sobre a <br> contabilidade
     </h2>
 
-    <p class="descricao-2">Quando falamos de contabilidade às pessoas <br> encaram como se fosse um bicho de 7 cabeças.
+    <p class="descricao">Quando falamos de contabilidade às pessoas <br> encaram como se fosse um bicho de 7 cabeças.
       <br> Entendemos que para contabilizar é preciso <br> muito mais do que se imagina, mais e se esse <br>
-      entendimento fosse abordado através de uma <br> conversa descontraída entre amigos? <br> <br>
-      Acabando de vez com todas as suas dúvidas e trazendo um jeito fácil e descomplicado de
+      entendimento fosse abordado através de uma <br> conversa descontraída entre amigos?
+    </p>
+    <p class="descricao-2">Acabando de vez com todas as suas dúvidas e trazendo um jeito fácil e descomplicado de
       aprender, você estaria disposto?
     </p>
 
@@ -129,36 +160,22 @@
 
   <!-- Fim da área de valores -->
 
-  <!-- Formulario -->
-  <h2 class="Ebook">Baixe agora nosso E-Book <br> Gratuito</h2>
+  <!-- Rodapé -->
 
-  <div class="vitor">
-    <img src="img/victor.png" alt="">
-  </div>
+  <footer>
+    <img  class="img_rodape" src="img/logo.png" alt="">
 
-  <form id="my-form" action="https://formspree.io/f/xlezygqr" method="POST">
+ <!--    <h5 class="rodape">Informações de Contato 
+      <ul>
+        <li>gestores@grupoora.com.br</li> 
+        <li>(27) 99236-8862</li> 
+        <li>(27) 3020-0242</li> 
+      </ul>
+  
+       José Alexandre Buaiz, 350 - Enseada do Suá, Vitória - ES, 29050-545 <h5> -->
+  </footer>
 
-    <div class="campo">
-      <label for="Nome">Nome:</label>
-      <input type="text" name="nome" id="nome" placeholder="Ex: Igor da silva " >
-    </div>
-    <div class="campo">
-      <label for="emal">E-mail</label>
-      <input type="text" name="email" id="email" placeholder="Ex: Igordasilv@gmail.com ">
-    </div>
-    <div class="campo">
-      <label for="telefone">Telefone:</label>
-      <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="Ex: (11) 99999-9999">
-    </div>
-
-    <div>
-      <button onclick="Ebook()" type="submit" id="enviar" name="enviar">Baixe Já </button>
-    </div>
-    <p id="my-form-status"></p>
-
-  </form>
-
-  <!-- Fim do  Formulario -->
+  <!-- Fim do rodapé -->
 
   <!-- Área dos Scripts / JS -->
   <script src="js/scripts.js"></script>
