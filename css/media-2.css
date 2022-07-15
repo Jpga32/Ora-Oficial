@@ -1,0 +1,38 @@
+html, body, .wrapper {
+    width: 100%;
+    min-height: 100vh;
+  }
+  main{
+    flex: 1;
+  }
+  .wrapper-2 { 
+    display: flex;
+    position: relative;
+    bottom: 430px;
+    right: 100px;
+   }
+  
+  .cell-2 {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #holder-2 {
+    width: 100%;
+    height: 383px;
+    margin: auto;
+  }
+  
+  .cntSeparator { display: none; }
+  
+  .cntDigit {
+    margin-top: 18px !important;
+  
+  }
+  
+    .cntDigit#cnt_0 { margin-left: 52px; }
+    .cntDigit#cnt_2 { margin-left: 7px; }
+  

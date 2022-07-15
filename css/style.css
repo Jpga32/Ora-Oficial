@@ -96,11 +96,13 @@ p {
     margin-left: -350px;
     width: 50%;
 }
-.descomplicar{
+
+.descomplicar {
     position: relative;
     bottom: 50px;
 }
-span{
+
+span {
     color: darkcyan;
 }
 
@@ -127,67 +129,6 @@ a {
     margin-left: 80px;
 }
 
-.modal {
-    position: relative;
-    bottom: 450px;
-    left: 10px;
-    width: 100%;
-    height: 80vh;
-
-    border-radius: 100px;
-    display: grid;
-    place-content: center;
-    visibility: hidden;
-    opacity: 0;
-    transition: .3s;
-}
-
-.modal__description {
-    color: #ffffff;
-    padding: 35px;
-}
-
-.modal:target {
-    opacity: 1;
-    visibility: visible;
-}
-
-.modal__content {
-    position: relative;
-    top: 1800px;
-    left: 250px;
-    box-shadow: #5b5b5b 2px 2px 15px;
-    background-color: #111111;
-    width: 400px;
-    padding: 2rem 2rem 1rem;
-    border-radius: 4px;
-}
-
-.modal__title {
-    margin-bottom: 1rem;
-    color: #ffffff;
-    text-align: center;
-    position: relative;
-    left: 10px;
-    bottom: 40px;
-
-
-}
-
-.modal__link {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    color: #ffffff;
-    padding: 0.7rem 3rem;
-    margin-top: 1rem;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-left: 80px;
-}
-
 /* Formulario */
 form {
     display: flex;
@@ -201,15 +142,16 @@ form {
     width: 100%;
     color: white;
     font-size: 15px;
-    border: none;
-    border-bottom: 1px solid white;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: #5b5b5b 2px 2px 5px;
     width: 300px;
     margin-bottom: 10px;
     position: relative;
-    left: 130px;
-    bottom: 45px;
+    left: 940px;
+    bottom: 675px;
     padding: 10px 10px;
-    outline: none;
+   
     background-color: #111111;
 }
 
@@ -219,11 +161,25 @@ form {
     display: block;
     font-size: 17px;
     position: relative;
-    left: 135px;
-    bottom: 50px;
+    left: 950px;
+    bottom: 680px;
     text-align: left;
     font-family: 'gotham';
 
+}
+
+h4{
+color: #fff;
+font-size: 1.5rem;
+position: relative;
+bottom: 40px;
+}
+
+.vitor{
+position: relative;
+bottom: 80px;
+right: 35px;
+width: 28%;
 }
 
 input,
@@ -238,32 +194,6 @@ button {
 
 a.modal__link {
     margin-left: -15px;
-}
-
-.btn
-
-/* Botao para abrir modal */
-    {
-    font-size: 1.2em;
-    font-weight: bolder;
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    border-radius: 2px;
-    margin-top: 18px;
-    color: #fff;
-    width: 50%;
-    padding: 0.2rem 0.6rem;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-a.fmt {
-
-    color: #fff;
-    font-size: 18px;
-    position: relative;
-    left: 260px;
-    bottom: 15px;
 }
 
 p#my-form-status {
@@ -297,16 +227,12 @@ div button {
 
 }
 
-a.btn {
-    width: 20%;
+#enviar {
+    width: 100%;
+    height: 5vh;
     position: relative;
-    top: 1000px;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bolder;
-    font-family: 'gotham';
-
+    bottom: 660px;
+    left: 825px;
 }
 
 
@@ -345,22 +271,23 @@ h3 {
     font-size: 30px;
     font-family: 'lemon';
     position: relative;
-    bottom: 920px;
+    bottom: 350px;
+    left: auto;
     text-align: center;
 }
 
 iframe {
     position: relative;
-    bottom: 1000px;
+    bottom: 400px;
     width: 60%;
     height: 80vh;
-    left: 250px;
+    left: 270px;
     background-color: #fff;
 }
 
 .comprar {
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(26,121,168,1) 50%, rgba(26,76,102,1) 100%);
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(26, 121, 168, 1) 50%, rgba(26, 76, 102, 1) 100%);
     position: relative;
     bottom: 2200px;
     left: 360px;
@@ -371,12 +298,15 @@ iframe {
 }
 
 .compre {
-    width: 25%;
+    width: 22%;
+    height: 50px;
     font-size: 20px;
     font-family: 'lemon';
     position: absolute;
-    top: 1450px;
-    left: 450px;
+    top: 1430px;
+    left: 475px;
+    border-radius: 15px;
+    padding: 15px;
 
 }
 
@@ -393,14 +323,15 @@ a.comprar {
     display: inline-block;
     position: relative;
 
-    left: 180px;
-    bottom: 790px;
+    left: 200px;
+    bottom: 210px;
     color: #ffffff;
-    padding: 0 50px;
+    padding: 0 40px;
 }
+
 .spot {
     display: flex;
-    width: 17%;
+    width: 16%;
     height: 75%;
     position: relative;
     left: 20px;
@@ -411,13 +342,13 @@ a.comprar {
 .container {
     color: #fff;
     position: relative;
-    bottom: 760px;
-    left: 200px;
+    bottom: 190px;
+    left: 210px;
     display: flex;
     padding: 100px;
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(26,121,168,1) 50%, rgba(26,76,102,1) 100%);
-    border-radius: 90px;
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(26, 121, 168, 1) 50%, rgba(26, 76, 102, 1) 100%);
+    border-radius: 70px;
     height: 75%;
     width: 70%;
 
@@ -439,7 +370,9 @@ a h6 {
     bottom: 130px;
     font-family: 'gotham';
 
-}.descricao-2{
+}
+
+.descricao-2 {
     position: relative;
     left: 285px;
     top: 20px;
@@ -447,53 +380,54 @@ a h6 {
 
 }
 
-.title{
-border-right: solid 3px black ;
-height: 130px;
-position: relative;
-padding: 10px;
-padding-top: 1px;
+.title {
+    border-right: solid 3px black;
+    height: 130px;
+    position: relative;
+    padding: 10px;
+    padding-top: 1px;
 
 }
 
 h2 {
-   
+
     position: relative;
     left: 10px;
     bottom: 50px;
     font-family: 'lemon';
     font-size: 18px;
-    
+
 }
 
 /*  Fim da área do podcast */
 
 /* Área de compra */
 
-.curso_title
-{
+.curso_title {
     text-align: center;
     color: #fff;
     font-family: 'lemon';
     position: absolute;
     top: 2050px;
     left: 100px;
-    
+
 }
+
 .curso_botao {
     width: 22%;
     color: #fff;
     position: absolute;
     top: 2380px;
     left: 135px;
-    padding: 5px;
-     background: rgb(26, 76, 102); 
-     background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1)); 
+    padding: 10px;
+    background: rgb(26, 76, 102);
+    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
     font-family: 'lemon';
-    font-size: 20px;    
+    font-size: 20px;
+    border-radius: 15px;
 }
 
-.curso_texto{
+.curso_texto {
     width: 30%;
     display: flex;
     align-items: center;
@@ -502,11 +436,13 @@ h2 {
     left: 450px;
     font-family: 'gotham';
 }
+
 figure img {
     position: relative;
-    bottom: 710px;
+    bottom: 150px;
     left: 1000px;
 }
+
 /* Fim da área de compra */
 
 /* Rodapé */
@@ -515,10 +451,10 @@ footer {
     position: relative;
     top: 0;
 
-    
+
 }
 
-footer article{
+footer article {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -530,36 +466,36 @@ footer section {
 }
 
 footer h5 {
-color: darkcyan;
-font-size: 1.3rem;
+    color: darkcyan;
+    font-size: 1.3rem;
 
-position: relative;
-top: 70px;
-right: 25px;
+    position: relative;
+    top: 70px;
+    right: 25px;
 }
 
-footer a, footer address {
+footer a,
+footer address {
     font-size: 1.1rem;
     text-align: left;
     position: relative;
     top: 80px;
     right: 40px;
 }
-.footer_img{
+
+.footer_img {
     width: 55%;
     position: relative;
     right: 380px;
-    top: 20px;
-    
+    top: 30px;
+
 }
-.endereco{
+
+.endereco {
     position: relative;
     left: 40px;
     top: 50px;
     font-size: 1.1rem;
-}
-.roda{
-    background-color: black;
 }
 
 /* Fim do rodapé  */

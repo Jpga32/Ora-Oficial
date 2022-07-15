@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="css/media-2.css">
 </head>
 
 <body>
@@ -45,35 +46,7 @@
     </article>
   </main>
   <!-- Formulario modal -->
-  <!--   <a href="#modal_1" class="btn">Venha baixar nosso Ebook</a> -->
-  <div id="modal_1" class="modal">
-    <div class="modal__content">
-      <a class="fmt" href="index.html">X</a>
-      <h2 class="modal__title">Preencha Abaixo <br> para Baixar o Ebook </h2>
-      <form id="my-form" action="https://formspree.io/f/xlezygqr" method="POST" class="modal__description">
-        <div class="campo">
-          <label for="nome">Nome:</label>
-          <input type="text" name="no" id="nome" placeholder="Ex: Igor de Andrade Silva " required>
-        </div>
-        <div class="campo">
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email" placeholder="Ex: IgorAndrade@gmail.com" required>
-        </div>
 
-        <div class="campo">
-          <label for="telefone">Telefone:</label>
-          <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="Ex: (11) 99999-9999" required>
-        </div>
-
-        <div>
-          <button onclick="Ebook()" type="submit" id="enviar" name="enviar">Baixe Já </button>
-        </div>
-        <p id="my-form-status"></p>
-
-      </form>
-
-    </div>
-  </div>
   <!-- Fim do formulario modal -->
 
   <!-- Inicio da área de video -->
@@ -160,38 +133,80 @@
 
   <!-- Fim da área de valores -->
 
-  <!-- rodapé -->
-  <footer class="roda">
-    <article>
-      <section>
-        <img class="footer_img" src="img/logo.png" alt="">
-      </section>
-      <section>
-        <h5>Informações de contato</h5>
-        <a href="">gestores@grupoora.com.br</a>
-        <a href="">(27) 99236-8862</a>
-        <a href="">(27) 3020-0242</a>
-        <br>
-        <address class="endereco">
-          José Alexandre Buaiz, 350 - Enseada do Suá,<br> Vitória - ES, 29050-545
-        </address>
-      </section>
-    </article>
-  </footer>
-  <!-- fim rodapé -->
+  <!-- Ebook -->
 
-  <!-- Área dos Scripts / JS -->
-  <script src="js/scripts.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+  <h4>Baixe aqui o E-Book Gratuito</h3>
 
-  <!-- Formataçao do campo Telefone -->
-  <script type="text/javascript">
-    $("#telefone").mask("(00) 00000-0000");
-  </script>
-  <!-- Fim da formatação -->
-  <script src="js/jquery.countdown.js"></script>
-  <script> $(function () { $(".digits").countdown({ image: "img/digits.png", format: "dd:hh:mm:ss", endTime: new Date('August 08 2022  00:00:00') }); }); </script>
+    <img class="vitor" src="img/victor.png" alt="">
+    <div class="wrapper-2">
+      <div class="cell-2">
+        <h3 class="days">Dias</h3>
+        <h3 class="horas">Horas</h3>
+        <h3 class="min">minutos </h3>
+        <h3 class="seg">segundos</h3>
+        <div id="holder-2">
+          <div class="digits"></div>
+        </div>
+      </div>
+    </div>
+    <form id="my-form" action="https://formspree.io/f/xlezygqr" method="POST">
+      <div class="campo">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Ex: Fernando da silva carvalho">
+      </div>
+
+      <div class="campo">
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" id="email" placeholder="Ex: FernandoCarvalhoSilva@gmail.com">
+      </div>
+
+      <div class="campo">
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="Ex: (11) 99999-9999" required>
+      </div>
+
+      <div>
+        <button onclick="Ebook()" type="submit" id="enviar" name="enviar">Baixe Já </button>
+      </div>
+      <p id="my-form-status"></p>
+
+    </form>
+
+
+    <!-- Fim do Ebook -->
+
+    <!-- rodapé -->
+    <footer class="roda">
+      <article>
+        <section>
+          <img class="footer_img" src="img/logo.png" alt="">
+        </section>
+        <section>
+          <h5>Informações de contato</h5>
+          <a href="">gestores@grupoora.com.br</a>
+          <a href="">(27) 99236-8862</a>
+          <a href="">(27) 3020-0242</a>
+          <br>
+          <address class="endereco">
+            José Alexandre Buaiz, 350 - Enseada do Suá,<br> Vitória - ES, 29050-545
+          </address>
+        </section>
+      </article>
+    </footer>
+    <!-- fim rodapé -->
+
+    <!-- Área dos Scripts / JS -->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+    <!-- Formataçao do campo Telefone -->
+    <script type="text/javascript">
+      $("#telefone").mask("(00) 00000-0000");
+    </script>
+    <!-- Fim da formatação -->
+    <script src="js/jquery.countdown.js"></script>
+    <script> $(function () { $(".digits").countdown({ image: "img/digits.png", format: "dd:hh:mm:ss", endTime: new Date('August 08 2022  00:00:00') }); }); </script>
 
 
 </body>
