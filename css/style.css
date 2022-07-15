@@ -18,9 +18,9 @@ body {
     min-height: 100vh;
     display: grid;
     place-content: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'gotham', sans-serif;
     background-color: #111111;
-    padding: 65px;
+    padding: 60px;
 }
 
 .days {
@@ -105,7 +105,6 @@ span{
 }
 
 picture img {
-    padding: 10px;
     width: 30%;
     height: auto;
     position: relative;
@@ -511,19 +510,56 @@ figure img {
 /* Fim da área de compra */
 
 /* Rodapé */
-.rodape{
+footer {
+    color: #fff;
+    position: relative;
+    top: 0;
+
+    
+}
+
+footer article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h5 {
+color: darkcyan;
+font-size: 1.3rem;
+
 position: relative;
-left: 50px;
-color: #fff;
+top: 70px;
+right: 25px;
 }
-.rodape ul li {
-    list-style: none;
+
+footer a, footer address {
+    font-size: 1.1rem;
+    text-align: left;
+    position: relative;
+    top: 80px;
+    right: 40px;
 }
-.img_rodape{
-    width: 20%;
-    position: static;
-    top: 2800px;
-    right: 80px;
+.footer_img{
+    width: 55%;
+    position: relative;
+    right: 380px;
+    top: 20px;
+    
+}
+.endereco{
+    position: relative;
+    left: 40px;
+    top: 50px;
+    font-size: 1.1rem;
+}
+.roda{
+    background-color: black;
 }
 
 /* Fim do rodapé  */
