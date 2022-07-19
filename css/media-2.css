@@ -8,7 +8,7 @@ html, body, .wrapper {
   .wrapper-2 { 
     display: flex;
     position: relative;
-    bottom: 430px;
+    bottom: 250px;
     right: 100px;
    }
   
