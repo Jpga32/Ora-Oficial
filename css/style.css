@@ -8,6 +8,7 @@
     src: url(../fonts/gotham/GothamRounded-Book.otf);
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -490,4 +491,5 @@ footer address {
 }
 
 /* Fim do rodapé  */
-@media screen and (min-width: 300px) {}
+@media screen and (min-Width: 400px) {
+}
