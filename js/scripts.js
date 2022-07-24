@@ -1,9 +1,25 @@
+  /* Validaçõa dos campos do form */
+
+  function Validar() {
+    
+    /* Pegando valor do campos atraves do Name */
+    var nome = formulario.nome;
+    // Verifancar se no estive vazio
+    if(nome.value == "")
+      alert("Nome não informado")
+
+    // Deixa o input com focus
+    nome.focus();
+
+    window.location ="https:www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file"
+  }
+
+
 
 /* Redirect page */
 /* "https://www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file" */
- function Ebook(){
-  window.location = "https://www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file"
- }
+
+ 
 
 
 /* Formatação do Formspree */
